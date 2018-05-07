@@ -10,11 +10,13 @@
 		6C37A63D2093495A00BD4F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A63C2093495A00BD4F8D /* AppDelegate.swift */; };
 		6C37A63F2093495A00BD4F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A63E2093495A00BD4F8D /* ViewController.swift */; };
 		6C37A6422093495A00BD4F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C37A6402093495A00BD4F8D /* Main.storyboard */; };
-		6C37A6452093495A00BD4F8D /* werkstuk1Tillo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A6432093495A00BD4F8D /* werkstuk1Tillo.xcdatamodeld */; };
 		6C37A6472093495A00BD4F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C37A6462093495A00BD4F8D /* Assets.xcassets */; };
 		6C37A64A2093495A00BD4F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C37A6482093495A00BD4F8D /* LaunchScreen.storyboard */; };
 		6C37A6552093495A00BD4F8D /* werkstuk1TilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A6542093495A00BD4F8D /* werkstuk1TilloTests.swift */; };
 		6C37A6602093495A00BD4F8D /* werkstuk1TilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A65F2093495A00BD4F8D /* werkstuk1TilloUITests.swift */; };
+		6C37A66E20935EA800BD4F8D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A66D20935EA800BD4F8D /* TableViewController.swift */; };
+		6C37A6702093635900BD4F8D /* DeItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A66F2093635900BD4F8D /* DeItems.swift */; };
+		6C37A6722093679200BD4F8D /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37A6712093679200BD4F8D /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		6C37A63C2093495A00BD4F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C37A63E2093495A00BD4F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C37A6412093495A00BD4F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6C37A6442093495A00BD4F8D /* werkstuk1Tillo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = werkstuk1Tillo.xcdatamodel; sourceTree = "<group>"; };
 		6C37A6462093495A00BD4F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C37A6492093495A00BD4F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C37A64B2093495A00BD4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		6C37A65B2093495A00BD4F8D /* werkstuk1TilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = werkstuk1TilloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C37A65F2093495A00BD4F8D /* werkstuk1TilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = werkstuk1TilloUITests.swift; sourceTree = "<group>"; };
 		6C37A6612093495A00BD4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C37A66D20935EA800BD4F8D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6C37A66F2093635900BD4F8D /* DeItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeItems.swift; sourceTree = "<group>"; };
+		6C37A6712093679200BD4F8D /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				6C37A63C2093495A00BD4F8D /* AppDelegate.swift */,
+				6C37A6712093679200BD4F8D /* ItemViewController.swift */,
 				6C37A63E2093495A00BD4F8D /* ViewController.swift */,
+				6C37A66F2093635900BD4F8D /* DeItems.swift */,
+				6C37A66D20935EA800BD4F8D /* TableViewController.swift */,
 				6C37A6402093495A00BD4F8D /* Main.storyboard */,
 				6C37A6462093495A00BD4F8D /* Assets.xcassets */,
 				6C37A6482093495A00BD4F8D /* LaunchScreen.storyboard */,
 				6C37A64B2093495A00BD4F8D /* Info.plist */,
-				6C37A6432093495A00BD4F8D /* werkstuk1Tillo.xcdatamodeld */,
 			);
 			path = werkstuk1Tillo;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C37A63F2093495A00BD4F8D /* ViewController.swift in Sources */,
-				6C37A6452093495A00BD4F8D /* werkstuk1Tillo.xcdatamodeld in Sources */,
+				6C37A6702093635900BD4F8D /* DeItems.swift in Sources */,
 				6C37A63D2093495A00BD4F8D /* AppDelegate.swift in Sources */,
+				6C37A66E20935EA800BD4F8D /* TableViewController.swift in Sources */,
+				6C37A6722093679200BD4F8D /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tl.werkstuk1Tillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tl.werkstuk1Tillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -556,19 +564,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6C37A6432093495A00BD4F8D /* werkstuk1Tillo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6C37A6442093495A00BD4F8D /* werkstuk1Tillo.xcdatamodel */,
-			);
-			currentVersion = 6C37A6442093495A00BD4F8D /* werkstuk1Tillo.xcdatamodel */;
-			path = werkstuk1Tillo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6C37A6312093495A00BD4F8D /* Project object */;
 }
